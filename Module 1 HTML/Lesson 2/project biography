@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Biography Page</title>
+</head>
+
+<body>
+
+    <h1>Mini Biography: Mahatma Gandhi ji</h1>
+    <p>Mahatma Gandhi(1869-1948) was one of the greatest leaders of India's freedom struggle.</p>
+
+    <h2>Early Life</h2>
+    <p>He was born in Porbandar, Gujarat on 2 oct 1869. he completed his early schooling in Rajkot. He was a honest and
+        shy child. </p>
+    <p><small>Note: This Biography is only a example. You may replace Mahatma Gandhi with any personality you admire.</small></p>
+
+    <h2>Important Achievement</h2>
+    <p>He led <strong>India's freedom movement through truth(satyaghraha) and non-violence(Ahimsa)</strong>.</p>
+    <p>He inspired <em>millions of people</em> to fight peacefully for India's independence.</p>
+    <p>One value that made him special was his commitment to <mark>truth, non-violence and simplicity</mark>.</p>
+
+    <h2>Correction Corner</h2>
+    <p><s>Gandhi was not only a freedom fighter.</s> He was also a lawyer, social reformer, and leader.</p>
+
+    <h2>Interesting Examples</h2>
+    <p>Science reminds us of formulas like H<sub>2</sub>O and ideas like 10<sup>2</sup>.</p>
+    <p>He also encouraged students to become the 1<sup>st</sup> version of themselves, not a copy of someone else.</p>
+
+    <h2>Words That Inspire</h2>
+    <p>He once said, <q>Be the change that wish to see in the world.</q></p>
+    <blockquote>
+    This reminds us that real chnage begins with our own actions.
+    </blockquote>
+
+    <h3>My Reflection</h3>
+    <p>I admire Mahatma Gandhi because he showed that truth,non-violence, and courage can bring about great chances. His life nspires me to be honest,kind and stand up for what is right.</p>
+
+</body>
+
+</html>ves
