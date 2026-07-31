@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Restaurant Menu Card</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #fff8e7;
+            color: #3b2f2f;
+        }
+
+        .menu-card {
+            width: 600px;
+            border: 3px solid #39e61a;
+            border-radius: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px #8b4513;
+        }
+
+        .restaurant-name {
+            font-size: 42px;
+            font-weight: bold;
+            color: #008b43;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px #d2b48c;
+        }
+
+        .tagline {
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            color: #6b4226;
+            text-decoration: underline;
+        }
+
+        .menu-section {
+            border: 2px solid #d2b48c;
+            box-shadow: 0 0 8px #d2b48c;
+        }
+
+        .section-title {
+            font-size: 26px;
+            color: #a0522d;
+            text-transform: capitalize;
+            text-decoration: overline;
+        }
+
+        .dish-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #006682;
+            text-transform: uppercase;
+        }
+
+        .dish-name:hover {
+          transform: scale(1.8);
+        }
+
+        .dish-description {
+            font-size: 15px;
+            line-height: 1.6;
+            text-indent: 30px;
+            color: #555555;
+        }
+
+        .special-offer {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #029da0;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px #000000;
+            box-shadow: 0 0 12px #029da0;
+            transform: rotate(-3deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-card">
+
+        <h1 class="restaurant-name">The Herb Garden</h1>
+
+        <p class="tagline">Fresh food, happy mood!</p>
+
+        <div class="menu-section">
+            <h2 class="section-title">starters</h2>
+
+            <p class="dish-name">Baked Camembert</p>
+            <p class="dish-description">
+                Baked Camembert is a warm, gooey, melted cheese wheel served straight from the oven.
+            </p>
+
+            <p class="dish-name">Paneer Tikka</p>
+            <p class="dish-description">
+            Paneer Tikka is a dish made of spiced, marinated cottage cheese cubes
+            </p>
+        </div>
+
+        <div class="menu-section">
+            <h2 class="section-title">main course</h2>
+
+            <p class="dish-name">Mushroom Risotto</p>
+            <p class="dish-description">
+            Mushroom Risotto is a creamy Italian rice dish slow-cooked with sautéed mushrooms
+            </p>
+
+            <p class="dish-name">Pan-Seared Sirloin Steak</p>
+            <p class="dish-description">
+            Pan-Seared Sirloin Steak is a juicy cut of beef cooked quickly in a hot skillet and basted with garlic, herbs, and
+            melted butter.
+            </p>
+        </div>
+
+        <p class="special-offer">Weekend special: 30% off!</p>
+
+    </div>
+
+</body>
+
+</html>
