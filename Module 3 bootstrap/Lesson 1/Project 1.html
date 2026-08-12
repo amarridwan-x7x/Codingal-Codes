@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Club Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- STEP 1 - Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #ff0000;
+            font-family: Arial, sans-serif;
+            padding: 30px 15px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(246, 246, 30);
+        }
+
+        .club-card {
+            text-align: center;
+            border: 2px solid #fdb021;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f98a13;
+        }
+
+        .club-card h3 {
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My School Clubs</h1>
+
+    <!-- STEP 2 - container keeps the layout neat and centred -->
+    <div class="container">
+
+        <!-- STEP 3 - row holds all the columns in one horizontal line -->
+        <div class="row">
+
+            <!-- STEP 4 - col-12: full width on phones
+                   col-md-6: half width on tablets
+                   col-lg-4: one-third on desktops -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="club-card">
+                    <h3>Coding Club</h3>
+                    <p>It is very fun to learn coding with friends in school and keep experimenting.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="club-card">
+                    <h3>Music club</h3>
+                    <p>I enjoy playing piano and all.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-4">
+                <div class="club-card">
+                    <h3>Sports club</h3>
+                    <p>I love playing football with my friends</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- STEP 5 - Bootstrap JS script -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+</body>
+
+</html>
